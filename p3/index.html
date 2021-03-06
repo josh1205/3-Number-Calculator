@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Basic Javascript Project" />
+        <meta name="author" content="Joshua Lavieri" />
+        <title>Basic Javascript Project</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <header>
+                    <h1>Javascript Project</h1>
+            </header>
+            <hr>
+            <div>
+                <p>If you enter a letter you will recieve a pop up.</p>
+                <p>These calculations do not include exponential or logarithmic characters.</p>
+                <h2>
+                    Inputs
+                </h2>
+                <p>Enter 3 Inputs to get the max, min, mean, median and range.</p>
+                <input class="inputNum" id="num1" type="text" size="5" placeholder="45">
+                <input class="inputNum" id="num2" type="text" size="5" placeholder="100">
+                <input class="inputNum" id="num3" type="text" size="5" placeholder="8"> 
+            </div>
+            <div>
+                <button type="button" id="compute" onclick="getInputValue()">Go</button>
+            </div>
+        </section>
+        <section>
+            <div id=mathResults>
+                <h2 id="heading2">
+                    Results
+                    <hr>
+                </h2>
+                <div class="results">Max:</div>
+                <div class="results">Max:</div>
+                <div class="results">Mean:</div>
+                <div class="results">Median:</div>
+                <div class="results">Range:</div>
+                <div class="results">Mode:</div>
+            </div>
+            <footer>
+                <p>Website Created By Joshua Lavieri</p>
+            </footer>
+        </section>
+        <script defer src="index.js"></script>
+    </body>
+
+</html>
