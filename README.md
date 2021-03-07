@@ -1,2 +1,2 @@
 # 3-Number-Calculator
-This project finds the average, mean, mode, range, min, max, and mode of three different numbers.
+Developed a single page web application that uses Javascript, HTML and CSS to find the average, mean, mode, range, min, max, and mode of three different numbers.
